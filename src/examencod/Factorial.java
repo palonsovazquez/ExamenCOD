@@ -4,22 +4,22 @@ public class Factorial {
 
     public static void main(String[] args) {
 
-        int j;
-        int f;
+        int intNumero; // numero entero a factorizar
+        int intFactorial; // factorial del numero
 
-        j = 8;
+        intNumero = 8;
 
         int i;
-        if (j == 0) {
-            f = 1;
+        if (intNumero == 0) {
+            intFactorial = 1;
         } else {
-            f = 1;
-            for (i = j; i >= 1; i--) {
-                f = f * i;
+            intFactorial = 1;
+            for (i = intNumero; i >= 1; i--) {
+                intFactorial = intFactorial * i;
             }
         }
 
-        System.out.println(f);
+        System.out.println(intFactorial);
 
     }
 
