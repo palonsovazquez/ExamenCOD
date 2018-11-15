@@ -1,10 +1,10 @@
-package numerosprimos;
+package examencod; // cambio el package para que corresponda con el proyecto.
 
 /**
  *
  * @author 
  */
-public class NumerosPrimos {
+public class NumerosPrimos { // cambio el nombre del fichero para que corresponda con el de la clase.
 
     /**
      * @param args the command line arguments
