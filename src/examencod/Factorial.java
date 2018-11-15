@@ -1,5 +1,5 @@
 
-package factorial;
+package examencod;
 
 
 public class Factorial {
