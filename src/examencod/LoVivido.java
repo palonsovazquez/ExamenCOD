@@ -9,28 +9,28 @@ import javax.swing.JOptionPane;
 public class LoVivido { // cambio el nombre del fichero para que corresponda con el nombre de la clase.
 
     public static void main(String[] args) {
-        String n;
-        String e;
+        String strNombre;
+        String strEdad;
 
-        int m;
-        int d;
-        int h;
-        int a;
+        int intMeses;
+        int intDias;
+        int intHoras;
+        int intEdad;
 
-        n = JOptionPane.showInputDialog("Escriba su nombre: ");
-        e = JOptionPane.showInputDialog("Escriba su edad: ");
+        strNombre = JOptionPane.showInputDialog("Escriba su nombre: ");
+        strEdad = JOptionPane.showInputDialog("Escriba su edad: ");
 
-        a = Integer.parseInt(e);
+        intEdad = Integer.parseInt(strEdad);
 
-        m = (a * 12);
-        d = (a * 365);
-        h = (d * 24);
+        intMeses = (intEdad * 12);
+        intDias = (intEdad * 365);
+        intHoras = (intDias * 24);
 
-        JOptionPane.showMessageDialog(null, "Meses: " + m, "Numero de meses vividos de " + n, JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(null, "Meses: " + intMeses, "Numero de meses vividos de " + strNombre, JOptionPane.INFORMATION_MESSAGE);
 
-        JOptionPane.showMessageDialog(null, "Días: " + d, "Numero de días vividos de " + n, JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(null, "Días: " + intDias, "Numero de días vividos de " + strNombre, JOptionPane.INFORMATION_MESSAGE);
 
-        JOptionPane.showMessageDialog(null, "Horas: " + h, "Numero de horas vividos de " + n, JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(null, "Horas: " + intHoras, "Numero de horas vividos de " + strNombre, JOptionPane.INFORMATION_MESSAGE);
 
         System.exit(0);
 
